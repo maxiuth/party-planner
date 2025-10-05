@@ -39,18 +39,22 @@ section {
   background: #eee;
 }
 
-.artist {
+.event {
   display: grid;
   gap: 1ch;
 }
 
-img {
+/* img {
   max-width: 100%;
   object-fit: contain;
-}
+} */
 
 @media (width > 600px) {
   main {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+#location {
+  font-style: italic;
 }
